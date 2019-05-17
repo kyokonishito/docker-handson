@@ -17,7 +17,7 @@ Lab3はKubernetesでも同様なことができるため、Kubernetesのハン�
 
 - [lab0](lab0.md) - Docker をインストールする
 
-- [lab1](lab1.md) - 初めてのコンテナーを実行する
+- [lab1](lab1.md) - 初めてのコンテナを実行する
    - Dockerコマンドの基本操作
    - Docker Hubと公式イメージの利用
    
