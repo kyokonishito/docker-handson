@@ -1,2 +1,31 @@
-# -docker-handson
-Docker ハンズオン
+# Docker ハンズオン
+
+Dockerを使用して以下のことを学びます。
+
+- Dockerコマンドの基本操作
+- Docker Hubと公式イメージの利用
+- DockerFileを使用したDocker Imageの作成、Docker Hubへのpush
+- ユニオン・ファイル・システムとコピー・オン・ライト
+- Docker swarmを利用したコンテナのデプロイ、オーケストレーション
+
+# ハンズオン構成 
+Lab0-３の4つのハンズオンを準備しています。
+
+Lab0ではDockerを利用するために必要なセットアップ手順がかかれています。  
+Lab1-3は基本的には独立した内容となっていますが、基本的にはLab1から実施頂くことをオススメします。
+Lab3はKubernetesでも同様なことができるため、Kubernetesのハンズオンを別途実施予定の場合は、スキップ可能です。
+
+- lab0 - [Docker をインストールする](lab0.md)
+
+- lab1 - [初めてのコンテナーを実行する](lab1.md)
+   - Dockerコマンドの基本操作
+   - Docker Hubと公式イメージの利用
+   
+- lab2 - [カスタム Docker イメージを使用して付加価値を与える](lab2.md)
+   - DockerFileを使用したDocker Imageの作成、Docker Hubへのpush
+   - ユニオン・ファイル・システムとコピー・オン・ライト
+
+- lab3 - [オーケストレーション入門](lab3.md)
+   - Docker swarmを利用したコンテナのデプロイ、オーケストレーション
+
+
