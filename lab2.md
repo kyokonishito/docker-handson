@@ -176,8 +176,8 @@ $ docker run -p 5001:5000 -d python-hello-world
 # 停止中も含めたコンテナ一覧を表示
 $ docker ps -a
 
-# <container id>を指定してログを確認
-$ docker logs <container id>
+# <CONTAINER ID>を指定してログを確認
+$ docker logs <CONTAINER ID>
 ```
 
 2. ブラウザー内で http://localhost:5001 にアクセスして、結果を確認します。 
